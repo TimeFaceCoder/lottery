@@ -17,8 +17,8 @@ exports.develop = true
 
 #转换照片的配置
 exports.conver =
-  sourceDir: "/Item/Project/TimeFace/lottery/dumps/photos"
-  distDir: "/Item/Project/TimeFace/lottery/dumps/dist"
+  sourceDir: "/dumps/photos"
+  distDir: "/dumps/dist"
 
 #每轮抽奖的数量
 exports.winnersCount = [10,15, 20, 15, 10, 5, 1]

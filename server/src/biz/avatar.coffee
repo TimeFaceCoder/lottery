@@ -4,8 +4,8 @@ Base = require './base'
 configure = require('../configure')
 isTestEnv = configure.isTestEnviroment
 
-distDir = configure.conver.distDir
-
+distDir = path.join process.cwd(), configure.conver.distDir
+console.log 'distDir', distDir
 class Avatar extends Base
   constructor: ->
   get: (req, resp, next)->
