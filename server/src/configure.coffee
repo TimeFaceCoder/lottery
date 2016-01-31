@@ -21,14 +21,81 @@ exports.conver =
   distDir: "/dumps/dist"
 
 #每轮抽奖的数量
-exports.winnersCount = [10,15, 20, 15, 10, 5, 1]
+exports.winnersCount = [
+  # 毛巾
+  3
+  3
+  3
+  # 蓝牙音箱
+  3
+  3
+  3
+  3
+  3
+  3
+  3
+  #料理机
+  2
+  2
+  2
+  2
+  2
+  2
+  2
+  1
+  #酒
+  3
+  3
+  3
+  3
+  3
+  # 床上4件套
+  3
+  3
+  2
+  2
+  # 电饭煲
+  1
+  1
+  1
+  1
+  1
+  # iphone
+  1
+]
 #每轮抽奖的奖品代号 和前台奖品的代号保持一直
 exports.winnersProductlist = [
-  [1]
-  [2]
-  [3]
-  [4]
-  [5]
-  [6]
-  [1]
+  ['towel'] #毛巾
+  ['towel'] #毛巾
+  ['towel'] #毛巾
+  ['voiceBox'] #蓝牙音箱
+  ['voiceBox'] #蓝牙音箱
+  ['voiceBox'] #蓝牙音箱
+  ['voiceBox'] #蓝牙音箱
+  ['voiceBox'] #蓝牙音箱
+  ['voiceBox'] #蓝牙音箱
+  ['voiceBox'] #蓝牙音箱
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['cookingMachine'] #料理机
+  ['wine'] # 酒
+  ['wine'] # 酒
+  ['wine'] # 酒
+  ['wine'] # 酒
+  ['wine'] # 酒
+  ['bedding'] #床上4件套
+  ['bedding'] #床上4件套
+  ['bedding'] #床上4件套
+  ['bedding'] #床上4件套
+  ['cooker'] # 电饭煲
+  ['cooker'] # 电饭煲
+  ['cooker'] # 电饭煲
+  ['cooker'] # 电饭煲
+  ['cooker'] # 电饭煲
+  ['iphone'] # iphone6s
 ]

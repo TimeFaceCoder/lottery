@@ -436,14 +436,6 @@ body {
     height: 50%
 }
 
-.container .result-20 .product li:nth-child(1) {
-    background: url(../../image/product-2.png) 0 0/auto 100% no-repeat
-}
-
-.container .result-20 .product li:nth-child(2) {
-    background: url(../../image/product-3.png) 0 0/auto 100% no-repeat
-}
-
 .container .result-20 .honey {
     position: absolute;
     left: 27%;

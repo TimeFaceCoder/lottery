@@ -22,8 +22,8 @@
     }
     .container{
       overflow: hidden;
-      width: 1440px;
-      height: 900px;
+      min-width: 100%;
+      min-height: 100%;
     }
     .result-20, .result-40, .result-tv{
       display: block;
@@ -51,6 +51,24 @@
 
 </head>
 <body>
+
+<script id="result" type="text/x-handlebars-template">
+  <div class="result-20">
+    <ul class="product">
+      <li style="background: url(../../image/product-{{pro1}}.jpg) 0 0/auto 100% no-repeat"></li>
+      <li><h2 style="font-size: large">{{name}}</h2></li>
+    </ul>
+    <ul class="honey">
+      {{#each list}}
+      <li>
+        <img src="/api/avatar/{{avatar}}" alt="">
+        <span>{{name}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</script>
+
 <script id="resultOther" type="text/x-handlebars-template">
   <div class="result-20">
     <ul class="honey">

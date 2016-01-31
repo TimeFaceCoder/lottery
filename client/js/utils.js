@@ -11,7 +11,7 @@ utils = {
     var queue = []; //中奖的
     for(var i = 0; i < num; i++){
       var index = utils.random(list);
-      queue.push(list.splice(index, 1)[0]);
+      queue.push(list.splice(index, 1)[0].id);
     }
     return queue;
   },
